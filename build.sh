@@ -4,7 +4,7 @@ set -ex
 USERNAME=204065533127.dkr.ecr.ap-northeast-1.amazonaws.com/tiger
 # image name
 #IMAGE=iii-devops-ecr
-IMAGE=brian
+IMAGE=tiger
 docker build -t $USERNAME/$IMAGE:latest .
 version=`cat VERSION`
 echo "version: $version"
